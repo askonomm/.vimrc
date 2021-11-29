@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'romgrk/barbar.nvim'
-Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'vim-airline/vim-airline'
@@ -12,7 +11,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'clojure-vim/clojure.vim', {'for': ['clojure', 'fennel']}
 Plug 'NoahTheDuke/coc-clojure'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'liuchengxu/vim-clap'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'guns/vim-sexp',    {'for': 'clojure'}
