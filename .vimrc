@@ -66,6 +66,7 @@ ensure_installed = {
     "clojure",
     "zig",
     "go",
+    "glimmer"
   },
   highlight = { enable = true },
   indent = { enable = true }
@@ -82,6 +83,6 @@ nnoremap <silent> fr :Clap filer <CR>
 nnoremap <silent> ev :ConjureEvalCurrentForm <CR>
 nnoremap <silent> repl :ConjureLogVSplit <CR>
 nnoremap <silent> dn :CocCommand deno.initializeWorkspace <CR>
-nnoremap <silent> bc :BufferClose <CR>
+nnoremap <silent> bc :BufferClose! <CR>
 nnoremap <silent> bp :BufferPrevious <CR>
 nnoremap <silent> bn :BufferNext <CR>
